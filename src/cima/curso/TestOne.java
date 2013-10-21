@@ -8,6 +8,7 @@ package cima.curso;
 public class TestOne {
     private String name;
     private String address;
+    private int phone;
 
     public String getName() {
         return name;
@@ -23,5 +24,13 @@ public class TestOne {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public int getPhone() {
+        return phone;
+    }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
     }
 }
