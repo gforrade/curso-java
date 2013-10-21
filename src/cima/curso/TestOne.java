@@ -12,6 +12,7 @@ public class TestOne {
     private String work;
     private int age;
     private String others;
+    private String errors;
 
     public String getName() {
         return name;
