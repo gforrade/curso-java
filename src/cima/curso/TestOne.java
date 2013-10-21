@@ -9,6 +9,7 @@ public class TestOne {
     private String name;
     private String address;
     private int phone;
+    private String work;
 
     public String getName() {
         return name;
@@ -32,5 +33,13 @@ public class TestOne {
 
     public void setPhone(int phone) {
         this.phone = phone;
+    }
+
+    public String getWork() {
+        return work;
+    }
+
+    public void setWork(String work) {
+        this.work = work;
     }
 }
