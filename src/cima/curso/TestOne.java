@@ -11,6 +11,7 @@ public class TestOne {
     private int phone;
     private String work;
     private int age;
+    private String others;
 
     public String getName() {
         return name;
