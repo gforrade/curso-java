@@ -10,6 +10,7 @@ public class TestOne {
     private String address;
     private int phone;
     private String work;
+    private int age;
 
     public String getName() {
         return name;
@@ -41,5 +42,13 @@ public class TestOne {
 
     public void setWork(String work) {
         this.work = work;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
